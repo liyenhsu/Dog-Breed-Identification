@@ -45,6 +45,7 @@ from keras.applications.inception_resnet_v2 import InceptionResNetV2, preprocess
 model = InceptionResNetV2(include_top=False, weights='imagenet')
 
 # preprocess the tensors and get bottleneck_features
+# These codes take a long time. It's better to use GPU/cloud services
 bottleneck_features_train = model.predict(preprocess_input(train_tensors))
 np.save(open('bottleneck_features_train.npy', 'w'), bottleneck_features_train)
 bottleneck_features_test = model.predict(preprocess_input(test_tensors))
