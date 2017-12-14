@@ -4,7 +4,7 @@ Still a work in progress. More pre-trained models need to be explored...
 
 ### Data
 
-The data were downloaded from [Kaggle](https://www.kaggle.com/c/dog-breed-identification/data), which comprises 120 breeds of dogs
+The dataset was downloaded from [Kaggle](https://www.kaggle.com/c/dog-breed-identification/data), which comprises 120 breeds of dogs
 - train.zip: the training set, 10222 dog images
 - test.zip: the test set, 10357 dog images
 - labels.csv.zip: the labels (dog breeds) for the images in the training set
@@ -20,3 +20,4 @@ The data were downloaded from [Kaggle](https://www.kaggle.com/c/dog-breed-identi
 ### References
 - [Kaggle Competition](https://www.kaggle.com/c/dog-breed-identification)
 - [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+- [Keras pre-trained models](https://keras.io/applications/)
