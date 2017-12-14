@@ -49,3 +49,4 @@ bottleneck_features_train = model.predict(preprocess_input(train_tensors))
 np.save(open('bottleneck_features_train.npy', 'w'), bottleneck_features_train)
 bottleneck_features_test = model.predict(preprocess_input(test_tensors))
 np.save(open('bottleneck_features_test.npy', 'w'), bottleneck_features_test)
+
